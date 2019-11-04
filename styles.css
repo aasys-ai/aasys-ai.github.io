@@ -19,6 +19,7 @@ a{
 a:hover{
     text-decoration: none;
     color: red;
+    text-shadow: 1px 1px 3px;
 }
 .thin_border{
     border: 1px solid black;
@@ -102,9 +103,15 @@ a:hover{
 }
 
 .foot_text{
-    margin: 15px 20px 0px 0px;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
+}
+
+.foot_back{
+    background: rgb(36, 36, 36);
+    margin: 0px 0px 0px 0px;
+    height: 100px;
+    width:100%;
 }
 
 #team_intro{
@@ -145,6 +152,7 @@ a:hover{
 }
 .con_pos{
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 .con_black{
     color: black;
@@ -230,4 +238,21 @@ a:hover{
     margin: 40px 0px 0px 0px;
     height: 200px;
     width:100%;
+}
+
+.art_body{
+    text-align: justify;
+}
+
+#github:hover{
+    color: rgb(145, 145, 145);
+    font-size: 14px;
+    text-shadow: none;
+    text-decoration: none;
+}
+#linkedin:hover{
+    color: rgb(145, 145, 145);
+    font-size: 14px;
+    text-shadow: none;
+    text-decoration: none;
 }
