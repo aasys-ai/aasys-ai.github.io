@@ -220,7 +220,7 @@ a:hover{
 }
 
 .art_mar{
-    margin: 50px 0px 50px 0px;
+    margin: 80px 0px 80px 0px;
 }
 .art_back{
     background: rgb(255, 255, 255);
@@ -228,6 +228,10 @@ a:hover{
 .art_head{
     color: red;
     font-size: 60px;
+}
+.art_head_osi{
+    color: red;
+    font-size: 40px;
 }
 
 .art_link:hover{
@@ -243,7 +247,20 @@ a:hover{
 .art_body{
     text-align: justify;
 }
-
+#github{
+    color: rgb(145, 145, 145);
+    font-size: 14px;
+    text-shadow: none;
+    text-decoration: none;
+    font-weight: 400;
+}
+#linkedin{
+    color: rgb(145, 145, 145);
+    font-size: 14px;
+    text-shadow: none;
+    text-decoration: none;
+    font-weight: 400;
+}
 #github:hover{
     color: rgb(145, 145, 145);
     font-size: 14px;
