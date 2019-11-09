@@ -3,6 +3,10 @@ a{
     font-size: 14px;
     font-weight: 600;
 }   
+.logo-text{
+    font-size: 30px;
+    font-weight: 510;
+}
 .make_black{
     color: black;
 }
@@ -15,11 +19,11 @@ a{
 a:hover{
     text-decoration: none;
     color: red;
-    text-shadow: 1px 1px 3px;
 }
 .thin_border{
     border: 1px solid black;
 }
+
 #nav_bar{
     margin-top: 15px;
 }
@@ -45,7 +49,7 @@ a:hover{
 }
 
 .intro-box{
-    background-color: rgb(255, 244, 244);
+    background-color: rgb(240, 240, 240);
     border-radius: 20px;
 }
 
@@ -86,7 +90,14 @@ a:hover{
 #topic_pos{
     margin: 20px 0px 0px 0px;
 }
-
+.main-img{
+    background: rgb(255, 255, 255);
+    margin: 20px 0px 20px 0px;
+    height: 400px;
+    width: 100%;
+    background-size: cover !important;
+    background-position: bottom !important;
+}
 #math_text{
     color: red;
     font-size: 100px;
@@ -207,7 +218,7 @@ a:hover{
 .quote_back{
     background: red;
     margin: 80px 0px 0px 0px;
-    height: 300px;
+    height: 200px;
     width:100%;
 }
 #stories{
