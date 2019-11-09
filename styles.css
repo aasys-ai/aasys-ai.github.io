@@ -43,6 +43,12 @@ a:hover{
         font-size: 250;
     }
 }
+
+.intro-box{
+    background-color: rgb(255, 244, 244);
+    border-radius: 20px;
+}
+
 .tag_pos{
     margin-top: 50px;
     padding: 0;
@@ -68,11 +74,12 @@ a:hover{
 }
 
 .field_topics{
+    margin: 20px 0px 0px 0px;
     color: red;
     font-size: 24px
 }
 .field_discription{
-    margin: 15px 0px 0px 0px;
+    margin: 15px 0px 15px 0px;
     color: black;
     font-size: 18px
 }
